@@ -1,0 +1,260 @@
+
+
+body{
+    font-family: 'Concert One', cursive;
+    margin:0;
+    padding:0;
+    font-size:16px;
+}
+
+.container{
+    width: 1040px;
+    margin-left:auto;
+    margin-right:auto;
+    height: 100px;
+}
+
+.img-container{
+    width:40%;
+}
+
+.left{
+    width: 30%;
+    float:left;
+}
+
+.img-container img{
+max-width:100%;
+}
+nav{
+    float: right;
+}
+
+nav ul{
+    padding:0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    position:relative;
+    padding-bottom:23px;
+    padding-top:23px;
+    margin-left:50px;
+}
+nav a{
+    font-size: 1.75rem;
+    text-decoration: none;
+    color:#8CBEB2;
+}
+
+nav a::before {
+    content:'';
+    height:5px;
+    display: block;
+    background-color:#F3B562;
+    bottom:0;
+    width:0%;
+    position: absolute;
+    transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before{
+    width:100%;
+}
+header{
+    height:100px;
+    margin-bottom:2%;
+}
+
+.background{
+    background-image: url(./images/Capture.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:1040px;
+    height:700px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+.background h1{
+    color:#F3B562;
+    font-size:3rem;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #5C4B51;
+    border-radius: 90px;
+    border: #F06060 2px solid;
+}
+
+.contain {
+    background-color:#8CBEB2;
+    text-align: center;
+    border-radius: 90px;
+}
+
+
+.containit{
+    margin-inline:auto;
+    width: min(90%, 70.5rem);
+}
+
+
+.libraries a{
+    color:#F3B562;
+}
+
+.read{
+    display: flex;
+    width:1040px;
+    height:650px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#8CBEB2;
+    border-radius: 90px;
+    padding-top:40px;
+    margin-bottom:12.5%;
+}
+
+.read-img{
+    margin-left:12.5%;
+    border-radius: 30px;
+}
+
+.img-container2{
+    width:90%;
+    border-radius:50px;
+}
+
+.img-container2 img{
+    max-width:100%;
+    border-radius: 90px;
+    border: #F06060 2px solid;
+}
+
+.why-read{
+    width:60%;
+    position: relative;
+    background-color:#5C4B51;
+    height:620px;
+    border-radius: 90px;
+    margin-left:12.5%;
+    border: #F06060 2px solid; ;
+}
+
+.why-read p {
+font-size:1.25rem;
+color:#F3B562;
+text-align: center;
+}
+
+.why-read h1::before{
+    content:'';
+    height:5px;
+    display: block;
+    background-color:#F3B562;
+    bottom:0;
+    width:10%;
+    position: absolute;
+}
+
+.why-read h1{
+    position:relative;
+    padding-bottom: 23px;
+    font-weight:700px;
+    color:#F3B562;
+    margin-left:auto;
+    margin-right:auto;
+    width:275px;
+    text-align: center;
+
+}
+
+.why-read h1::before{
+    content:'';
+    height:5px;
+    display: block;
+    background-color:#F06060;
+    bottom:0;
+    width:100%;
+    position: absolute;
+}
+
+
+
+.library{
+    width:1040px;
+    margin-left:auto;
+    margin-right:auto;
+    height:300px;
+    text-align: center;
+}
+
+.img {
+    width:800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.img img{
+    max-width:100%;
+}
+
+.library h2{
+    font-size: 2rem;
+   color: #F3B562;
+}
+.library p{
+    font-size:1.5rem;
+    width:500px;
+    margin-left:auto;
+    margin-right: auto;
+    color: #8CBEB2;
+    position:relative;
+    padding-bottom:23px;
+}
+
+
+.library p::before{
+        content:'';
+        height:5px;
+        display: block;
+        background-color:#F06060;
+        bottom:0;
+        width:100%;
+        position: absolute;
+}
+
+.image-cont{
+    width:1040px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #F3B562;
+    height:350px;
+    padding:2rem;
+    border-radius: 90px;
+    margin-top:40%;
+}
+
+.flex{
+    display: flex;
+    width:1040px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.all{
+width:42%;
+
+}
+
+.all img{
+    max-width:70%;
+    border-radius:30px;
+}
